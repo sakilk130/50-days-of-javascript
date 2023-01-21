@@ -9,3 +9,7 @@ This is a simple counter app using vanilla JavaScript.
 ## Day 2 - Random Hex Color Generator
 
 This is a simple random hex color generator. It generates a random hex color and displays it on the screen. It also displays the hex color code.
+
+## Day 3 - Random Number Generator
+
+This is a simple random number generator. It generates a random number between 1 and 10 and displays it on the screen.
