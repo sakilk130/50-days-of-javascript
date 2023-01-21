@@ -13,3 +13,7 @@ This is a simple random hex color generator. It generates a random hex color and
 ## Day 3 - Random Number Generator
 
 This is a simple random number generator. It generates a random number between 1 and 10 and displays it on the screen.
+
+## Day 4 - Modal Popup
+
+This is a simple modal popup app. It is a simple app that shows a modal popup when you click on the button.
