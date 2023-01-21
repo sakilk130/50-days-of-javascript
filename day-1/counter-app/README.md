@@ -8,4 +8,4 @@ This is a simple counter app using vanilla JavaScript.
 
 ## Screenshot
 
-![Counter App](./screenshot/screen-capture.webm)
+![Counter App](./screenshot/counter.gif)
