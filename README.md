@@ -25,3 +25,7 @@ This is a simple palindrome checker. It checks if the string is a palindrome or 
 ## Day 6 - Vowel Counter App
 
 This app is used to count the number of vowels in a string.
+
+## Day 7 - Click to Copy
+
+This is a simple example of how to copy text to clipboard using JavaScript.
