@@ -21,3 +21,7 @@ This is a simple modal popup app. It is a simple app that shows a modal popup wh
 ## Day 5 - Palindrome Checker
 
 This is a simple palindrome checker. It checks if the string is a palindrome or not.
+
+## Day 6 - Vowel Counter App
+
+This app is used to count the number of vowels in a string.
