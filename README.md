@@ -17,3 +17,7 @@ This is a simple random number generator. It generates a random number between 1
 ## Day 4 - Modal Popup
 
 This is a simple modal popup app. It is a simple app that shows a modal popup when you click on the button.
+
+## Day 5 - Palindrome Checker
+
+This is a simple palindrome checker. It checks if the string is a palindrome or not.

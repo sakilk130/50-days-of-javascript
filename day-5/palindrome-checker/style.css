@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--light-blue);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+.card {
+  width: 500px;
+  height: 180px;
+  background-color: var(--white);
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.card div {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px;
+}
+.input {
+  height: 40px;
+  width: 100%;
+  padding: 0 10px;
+  outline: none;
+  border: none;
+  border-bottom: 2px solid var(--color-sec);
+  font-size: 1.8rem;
+}
+.btn {
+  height: 40px;
+  width: 100px;
+  background-color: var(--color-sec);
+  color: var(--white);
+  border: none;
+  border-radius: 5px;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: var(--color-primary);
+}
+.result-text {
+  margin-top: 20px;
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-sec);
+}
