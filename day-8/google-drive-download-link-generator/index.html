@@ -29,7 +29,52 @@
           <li>Click on <span>Generate</span></li>
         </ol>
       </div>
-      <div class="rigt"></div>
+      <div class="right">
+        <h1 class="header">Google Direct Download Link Generator</h1>
+        <div class="radio-inputs">
+          <input type="radio" id="paste-link" name="tab" checked />
+          <div class="radio-input">
+            <label for="paste-link" class="paste-link"
+              ><i class="fas fa-sign-in-alt"></i>Paste Link</label
+            >
+          </div>
+          <input type="radio" id="embed-audio" name="tab" />
+          <div class="radio-input">
+            <label for="embed-audio" class="embed-audio"
+              ><i class="fas fa-headphones-alt"></i>Embed Audio</label
+            >
+          </div>
+          <input type="radio" id="embed-video" name="tab" />
+          <div class="radio-input">
+            <label for="embed-video" class="embed-video"
+              ><i class="fas fa-photo-video"></i>Embed Video/Docs</label
+            >
+          </div>
+        </div>
+        <section class="paste-link-section">
+          <i class="fas fa-download"></i>
+          <h2>Google Drive link</h2>
+          <p>
+            Paste the link of the file you want to share in the input field
+            below
+          </p>
+          <div class="gdrive-link">
+            <i class="fab fa-google-drive"></i>
+            <input
+              type="text"
+              placeholder="Google Drive Link"
+              autocomplete="off"
+              required
+            />
+          </div>
+          <button class="btn" id="btn">Generate Direct Download Link</button>
+          <div class="embed-code">
+            <h3>Direct Download link</h3>
+            <textarea class="embed" cols="30" rows="10"></textarea>
+            <span class="copy">Copy</span>
+          </div>
+        </section>
+      </div>
     </div>
     <script src="./app.js"></script>
   </body>
