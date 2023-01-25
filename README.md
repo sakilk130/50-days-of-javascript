@@ -29,3 +29,7 @@ This app is used to count the number of vowels in a string.
 ## Day 7 - Click to Copy
 
 This is a simple example of how to copy text to clipboard using JavaScript.
+
+## Day 8 - Google Drive Download Link Generator
+
+This is a simple script to generate download link for Google Drive files.
