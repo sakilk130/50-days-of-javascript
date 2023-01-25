@@ -61,6 +61,7 @@
           <div class="gdrive-link">
             <i class="fab fa-google-drive"></i>
             <input
+              id="gdrive-link"
               type="text"
               placeholder="Google Drive Link"
               autocomplete="off"
@@ -70,7 +71,12 @@
           <button class="btn" id="btn">Generate Direct Download Link</button>
           <div class="embed-code">
             <h3>Direct Download link</h3>
-            <textarea class="embed" cols="30" rows="10"></textarea>
+            <textarea
+              id="direct-download-link"
+              class="embed"
+              cols="30"
+              rows="10"
+            ></textarea>
             <span class="copy">Copy</span>
           </div>
         </section>
@@ -83,8 +89,13 @@
           </p>
           <div class="embed-code">
             <h3>Audio Embed Link</h3>
-            <textarea class="embed" cols="30" rows="10"></textarea>
-            <span class="copy">Copy</span>
+            <textarea
+              id="embed-audio-link"
+              class="embed"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <span class="copy" id="embed-audio-copy">Copy</span>
           </div>
         </section>
         <section class="embed-video-section">
@@ -96,8 +107,13 @@
           </p>
           <div class="embed-code">
             <h3>Video/Doc Embed Link</h3>
-            <textarea class="embed" cols="30" rows="10"></textarea>
-            <span class="copy">Copy</span>
+            <textarea
+              id="embed-video-link"
+              class="embed"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <span class="copy" id="embed-video-copy">Copy</span>
           </div>
         </section>
       </div>
