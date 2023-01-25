@@ -37,3 +37,7 @@ This is a simple script to generate download link for Google Drive files.
 ## Day 9 - Input Character Counter
 
 This is a simple app that counts the number of characters in an input field. It also changes the color of the text depending on the number of characters.
+
+## Day 10 - Internet Connection Detector
+
+This is a simple app that detects the internet connection and shows the status of the internet connection.
