@@ -33,3 +33,7 @@ This is a simple example of how to copy text to clipboard using JavaScript.
 ## Day 8 - Google Drive Download Link Generator
 
 This is a simple script to generate download link for Google Drive files.
+
+## Day 9 - Input Character Counter
+
+This is a simple app that counts the number of characters in an input field. It also changes the color of the text depending on the number of characters.
