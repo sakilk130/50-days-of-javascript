@@ -45,3 +45,7 @@ This is a simple app that detects the internet connection and shows the status o
 ## Day 11 - JavaScript Quiz App
 
 This is a simple quiz app built with JavaScript
+
+## Day 12 - Geolocation API
+
+This is a simple quiz app that uses the Geolocation API to get the user's location and display it on a map.
