@@ -1,5 +1,12 @@
 const minutes = document.getElementById('minutes');
 const seconds = document.getElementById('seconds');
+const question = document.getElementById('question');
+const options = document.querySelector('.options');
+const questionNumber = document.getElementById('question-number');
+const totalQuestions = document.getElementById('total-questions');
+const quizHeader = document.getElementById('quiz-header');
+const resetQuiz = document.getElementById('reset-quiz');
+const questionCountTimmer = document.querySelector('.question-count-timmer');
 
 const questions = [
   {
@@ -49,9 +56,18 @@ const questions = [
   },
 ];
 
+let min = 10;
+let sec = 00;
+
+const timesUp = () => {
+  question.innerHTML = '';
+  options.innerHTML = '';
+  questionCountTimmer.innerHTML = '';
+  quizHeader.textContent = `Time's Up!`;
+  resetQuiz.innerHTML = `<button id="reset-quiz-btn">Reset Quiz</button>`;
+};
+
 const countDownTimer = () => {
-  let min = 10;
-  let sec = 00;
   minutes.innerHTML = min;
   seconds.innerHTML = sec;
   const countDown = setInterval(() => {
@@ -77,7 +93,7 @@ const countDownTimer = () => {
     if (min === 0 && sec === 0) {
       seconds.innerHTML = `0${sec}`;
       clearInterval(countDown);
-      alert('Times up');
+      timesUp();
     }
   }, 1000);
 };
@@ -85,16 +101,7 @@ const countDownTimer = () => {
 const startQuiz = () => {
   let score = 0;
   let currentQuestion = 0;
-  const question = document.getElementById('question');
-  const options = document.querySelector('.options');
-  const questionNumber = document.getElementById('question-number');
-  const totalQuestions = document.getElementById('total-questions');
-  const quizHeader = document.getElementById('quiz-header');
-  const resetQuiz = document.getElementById('reset-quiz');
-  const questionCountTimmer = document.querySelector('.question-count-timmer');
-
   countDownTimer();
-
   const loadQuestion = (freshLoad = false) => {
     if (freshLoad) {
       options.innerHTML = '';
