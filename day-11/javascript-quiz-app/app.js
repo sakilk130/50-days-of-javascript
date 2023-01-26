@@ -49,34 +49,89 @@ const questions = [
   },
 ];
 
-const countDown = () => {
+const countDownTimer = () => {
   let min = 10;
-  let sec = 60;
+  let sec = 00;
   minutes.innerHTML = min;
   seconds.innerHTML = sec;
   const countDown = setInterval(() => {
-    sec--;
-    seconds.innerHTML = sec;
+    if (sec > 0) {
+      --sec;
+      seconds.innerHTML = sec;
+    }
     if (sec < 10) {
       seconds.innerHTML = `0${sec}`;
     }
-    if (sec == 0) {
-      min--;
+    if (sec === 0 && min > 0) {
+      --min;
+      sec = 59;
+      seconds.innerHTML = sec;
       minutes.innerHTML = min;
-      sec = 60;
     }
     if (min < 10) {
       minutes.innerHTML = `0${min}`;
     }
-    if (min == 0 && sec == 0) {
+    if (min === 0 && sec < 10) {
+      seconds.innerHTML = `<span style="color: red;">0${sec}</span>`;
+    }
+    if (min === 0 && sec === 0) {
+      seconds.innerHTML = `0${sec}`;
       clearInterval(countDown);
-      alert('Time is up');
+      alert('Times up');
     }
   }, 1000);
 };
 
 const startQuiz = () => {
-  countDown();
+  let score = 0;
+  let currentQuestion = 0;
+  const question = document.getElementById('question');
+  const options = document.querySelector('.options');
+  const questionNumber = document.getElementById('question-number');
+  const totalQuestions = document.getElementById('total-questions');
+  const quizHeader = document.getElementById('quiz-header');
+  const resetQuiz = document.getElementById('reset-quiz');
+  const questionCountTimmer = document.querySelector('.question-count-timmer');
+
+  countDownTimer();
+
+  const loadQuestion = (freshLoad = false) => {
+    if (freshLoad) {
+      options.innerHTML = '';
+    }
+    if (currentQuestion === questions.length) {
+      question.innerHTML = '';
+      options.innerHTML = '';
+      questionCountTimmer.innerHTML = '';
+      quizHeader.textContent = `You scored ${score} out of ${questions.length}`;
+      resetQuiz.innerHTML = `<button id="reset-quiz-btn">Reset Quiz</button>`;
+      return;
+    }
+    questionNumber.innerHTML = currentQuestion + 1;
+    totalQuestions.innerHTML = questions.length;
+    question.innerHTML = questions[currentQuestion].question;
+    questions[currentQuestion].options.forEach((option, j) => {
+      options.innerHTML += ` <button id="option-${j}">${option}</button>`;
+    });
+    const optionButtons = document.querySelectorAll('.options button');
+    optionButtons.forEach((button) => {
+      button.addEventListener('click', (e) => {
+        const selectedOption = e.target.id.split('-')[1];
+        if (Number(selectedOption) === questions[currentQuestion].answer) {
+          score++;
+          currentQuestion++;
+          loadQuestion(true);
+        } else {
+          currentQuestion++;
+          loadQuestion(true);
+        }
+      });
+    });
+  };
+  loadQuestion();
+  resetQuiz.addEventListener('click', () => {
+    window.location.reload();
+  });
 };
 
 startQuiz();

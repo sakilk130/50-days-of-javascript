@@ -14,27 +14,22 @@
   <body>
     <div class="container">
       <div class="quiz-box">
-        <h1><i class="fas fa-clipboard-list"></i> JavaScript Quiz App</h1>
+        <h1 id="quiz-header">
+          <i class="fas fa-clipboard-list"></i> JavaScript Quiz App
+        </h1>
         <div class="question-count-timmer">
           <p>
             Question <span id="question-number">1</span> of
             <span id="total-questions">10</span>
           </p>
           <p id="timmer">
-            <i class="fas fa-clock"></i> <span id="minutes">00</span>:
+            <i class="fas fa-clock"></i> <span id="minutes">00</span> :
             <span id="seconds">00</span>
           </p>
         </div>
-        <p id="question">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
-          voluptates, quod, quia, voluptatibus quae.
-        </p>
-        <div class="options">
-          <button id="option1">Option 1</button>
-          <button id="option2">Option 2</button>
-          <button id="option3">Option 3</button>
-          <button id="option4">Option 4</button>
-        </div>
+        <div id="reset-quiz"></div>
+        <p id="question"></p>
+        <div class="options"></div>
       </div>
     </div>
     <script src="./app.js"></script>

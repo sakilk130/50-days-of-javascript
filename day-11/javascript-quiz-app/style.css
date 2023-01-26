@@ -96,3 +96,25 @@ body {
   background-color: var(--color-sec);
   color: var(--white);
 }
+#reset-quiz {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#reset-quiz-btn {
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: 600;
+  padding: 1rem;
+  border-radius: 10px;
+  border: 1px solid var(--color-sec);
+  background-color: var(--dark-grey);
+  color: var(--white);
+  cursor: pointer;
+  text-align: center;
+  transition: all 0.3s ease;
+}
+#reset-quiz-btn:hover {
+  background-color: var(--color-sec);
+  color: var(--white);
+}
