@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+header {
+  background-color: transparent;
+  padding: 1rem;
+}
+header h1 {
+  font-size: 2.5rem;
+  color: var(--color-sec);
+  text-align: center;
+}
+
+.container {
+  max-width: 600px;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 5px;
+}
+#form input {
+  padding: 1rem;
+  border: 2px solid var(--grey);
+  border-radius: 5px;
+  font-size: 1.6rem;
+  outline: none;
+}
+#form input:focus {
+  border: 2px solid var(--color-sec);
+}
+#form button {
+  padding: 1rem;
+  border: 2px solid var(--color-sec);
+  border-radius: 5px;
+  font-size: 1.6rem;
+  outline: none;
+  background-color: var(--color-sec);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+#form button:hover {
+  background-color: var(--white);
+  color: var(--color-sec);
+}
+
+.quotes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+.quote {
+  padding: 1rem;
+  border: 2px solid var(--grey);
+  border-radius: 5px;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6rem;
+  color: var(--color-sec);
+  font-weight: 600;
+  transition: all 0.3s ease-in-out;
+}
+.quote:hover {
+  border: 2px solid var(--color-sec);
+  box-shadow: 0 0 10px var(--color-sec);
+}
+.quote .author {
+  font-size: 1.4rem;
+  color: var(--color-primary);
+  font-weight: 600;
+  text-align: end;
+  font-weight: 400;
+  font-style: italic;
+}
+#error {
+  padding: 1rem;
+  color: red;
+  font-size: 1.4rem;
+  font-weight: 600;
+  text-align: center;
+}
