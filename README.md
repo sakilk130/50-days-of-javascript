@@ -49,3 +49,7 @@ This is a simple quiz app built with JavaScript
 ## Day 12 - Geolocation API
 
 This is a simple quiz app that uses the Geolocation API to get the user's location and display it on a map.
+
+## Day 13 - HTTP Request Project
+
+This project is a simple HTTP request project that uses the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to make a request to the `user.json` file and display the data on the page.
