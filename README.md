@@ -61,3 +61,7 @@ This project is a simple Random quote generator project the [Fetch API](https://
 ## Day 15 - Weather App
 
 This is a simple weather app that uses the OpenWeatherMap API to get the weather data. It uses the geolocation API to get the user's location and then uses the OpenWeatherMap API to get the weather data for that location. It also has a search bar that allows the user to search for a city and get the weather data for that city.
+
+## Day 16 - List Search Project
+
+This project is a simple list search app.
