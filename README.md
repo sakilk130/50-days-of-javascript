@@ -81,3 +81,7 @@ This is a simple tip calculator app that calculates the tip amount and total amo
 ## Day 20 - Smooth Scroll
 
 This is a simple smooth scroll demo.
+
+## Day 21 - Sticky Nav Bar on Scroll
+
+This is a simple sticky nav bar on scroll demo.
