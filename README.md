@@ -77,3 +77,7 @@ This project is a simple countdown timer that counts down to a specific date. It
 ## Day 19 - Tip Calculator
 
 This is a simple tip calculator app that calculates the tip amount and total amount based on the bill amount and tip percentage.
+
+## Day 20 - Smooth Scroll
+
+This is a simple smooth scroll demo.

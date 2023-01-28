@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  background: var(--dark-grey);
+  height: 10vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  position: sticky;
+  top: 0;
+}
+nav .logo {
+  color: var(--color-sec);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: var(--color-sec);
+}
+main {
+  padding: 2rem;
+}
+section {
+  margin-bottom: 2rem;
+  border: 2px solid var(--grey);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+section:hover {
+  border: 2px solid var(--color-sec);
+}
+section h1 {
+  font-size: 2rem;
+  color: var(--color-sec);
+  margin-bottom: 1rem;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.details p {
+  color: var(--color-sec);
+}
+.details img {
+  object-fit: cover;
+  border-radius: 10px;
+}
