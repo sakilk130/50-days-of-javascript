@@ -65,3 +65,7 @@ This is a simple weather app that uses the OpenWeatherMap API to get the weather
 ## Day 16 - List Search Project
 
 This project is a simple list search app.
+
+## Day 17 - Date Countdown
+
+This project is a simple countdown timer that counts down to a specific date. It is built with HTML, CSS, and JavaScript.
