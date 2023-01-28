@@ -57,3 +57,7 @@ This project is a simple HTTP request project that uses the [Fetch API](https://
 ## Day 14 - Random Quote Generator
 
 This project is a simple Random quote generator project the [Fetch API](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API) to make a request to the [Type.fit API](https://type.fit/api/quotes) to get a random quote.
+
+## Day 15 - Weather App
+
+This is a simple weather app that uses the OpenWeatherMap API to get the weather data. It uses the geolocation API to get the user's location and then uses the OpenWeatherMap API to get the weather data for that location. It also has a search bar that allows the user to search for a city and get the weather data for that city.
