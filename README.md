@@ -69,3 +69,7 @@ This project is a simple list search app.
 ## Day 17 - Date Countdown
 
 This project is a simple countdown timer that counts down to a specific date. It is built with HTML, CSS, and JavaScript.
+
+## Day 18 - Promo Countdown
+
+This project is a simple countdown timer that counts down to a specific date. It is built with HTML, CSS, and JavaScript.
