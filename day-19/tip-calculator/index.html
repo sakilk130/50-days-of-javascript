@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Tip Calculator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="error"></div>
+      <h1>Tip Calculator</h1>
+      <div class="bill">
+        <label for="bill">Bill: </label>
+        <input type="number" id="bill" placeholder="Enter" />
+      </div>
+      <div class="rate">
+        <label for="rate">Rate Service: </label>
+        <select name="rate" id="rate">
+          <option value="0.1">10%</option>
+          <option value="0.15">15%</option>
+          <option value="0.2">20%</option>
+          <option value="0.25">25%</option>
+          <option value="0.3">30%</option>
+        </select>
+      </div>
+      <button>Calculate</button>
+      <div class="result">
+        <h2 id="result-tip">Tip: $0.00</h2>
+        <h2 id="result-total">Total: $0.00</h2>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
