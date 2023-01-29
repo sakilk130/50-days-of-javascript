@@ -85,3 +85,7 @@ This is a simple smooth scroll demo.
 ## Day 21 - Sticky Nav Bar on Scroll
 
 This is a simple sticky nav bar on scroll demo.
+
+## Day 22 - Active Menu Switcher
+
+This is a simple project that shows how to switch the active menu item when the user scrolls down the page.
