@@ -89,3 +89,7 @@ This is a simple sticky nav bar on scroll demo.
 ## Day 22 - Active Menu Switcher
 
 This is a simple project that shows how to switch the active menu item when the user scrolls down the page.
+
+## Day 23 - Scroll to Top
+
+This is a simple scroll to top button that will appear when the user scrolls down the page. It will disappear when the user scrolls back to the top of the page.

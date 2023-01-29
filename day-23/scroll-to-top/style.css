@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+nav {
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 6rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+}
+.header {
+  background: url('./images/bg-girl.jpg') no-repeat center center/cover;
+}
+nav .logo {
+  color: var(--color-sec);
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.2rem;
+  text-transform: uppercase;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  gap: 2rem;
+}
+nav ul li a {
+  color: var(--white);
+  text-decoration: none;
+}
+nav ul li a:hover {
+  color: var(--color-sec);
+}
+.active {
+  color: var(--color-sec) !important;
+  border-bottom: 2px solid var(--color-sec) !important;
+}
+header {
+  height: 90vh;
+  background: url(./images/bg-girl.jpg) no-repeat center center/cover;
+}
+main {
+  padding: 6rem;
+}
+section {
+  margin-bottom: 2rem;
+  border: 2px solid var(--grey);
+  padding: 2rem;
+  border-radius: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+section:hover {
+  border: 2px solid var(--color-sec);
+}
+section h1 {
+  font-size: 2rem;
+  color: var(--color-sec);
+  margin-bottom: 1rem;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 2rem;
+}
+.details p {
+  color: var(--color-sec);
+}
+.details img {
+  object-fit: cover;
+  border-radius: 10px;
+}
+.scroll-up {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease;
+  z-index: 100;
+  background: transparent;
+  backdrop-filter: blur(10px);
+}
+.scroll-up ul li a {
+  color: var(--dark-grey);
+  position: sticky;
+  top: 0;
+}
+.top {
+  display: none;
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  padding: 0.7rem;
+  border-radius: 10px;
+  background: var(--color-sec);
+  color: var(--white);
+  cursor: pointer;
+  transition: all 0.3s ease;
+  border: 1px solid var(--color-sec);
+}
+
+.top:hover {
+  background: var(--white);
+  color: var(--color-sec);
+  border: 1px solid var(--color-sec);
+}
