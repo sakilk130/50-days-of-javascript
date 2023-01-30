@@ -97,3 +97,7 @@ This is a simple scroll to top button that will appear when the user scrolls dow
 ## Day 24 - Responsive Mobile Menu
 
 This is a responsive mobile menu that is built with HTML, CSS and JavaScript. It is a simple menu that is built with a hamburger icon and a dropdown menu. The menu is responsive and will change to a dropdown menu when the screen size is less than 768px.
+
+## Day 25 - Responsive Mobile Menu 2
+
+This is a responsive mobile menu with a hamburger icon. The menu is hidden by default and will be shown when the hamburger icon is clicked. The menu will be hidden again when the hamburger icon is clicked again.

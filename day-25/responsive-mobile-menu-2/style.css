@@ -90,10 +90,18 @@ section h1 {
   display: none;
   color: var(--color-sec);
   font-size: 2rem;
+  position: absolute;
+  top: 1.2rem;
+  right: 2rem;
+  cursor: pointer;
+  z-index: 111;
+  transition: all 0.3s;
 }
-
-.show {
+.close-show {
   transform: translateY(0) !important;
+}
+.show {
+  transform: translateX(0) !important;
 }
 @media only screen and (max-width: 600px) {
   .details {
@@ -102,25 +110,39 @@ section h1 {
   .details img {
     width: 100%;
   }
+  .nav-wrapper {
+    transform: translateX(-200%);
+    position: absolute;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    height: 100vh;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all 0.5s;
+  }
   .nav-links {
+    position: absolute;
     flex-direction: column;
-    width: 90%;
-    margin: 0 auto;
-    margin-top: 1.5rem;
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    width: 50%;
+    height: 100vh;
     background-color: rgba(0, 0, 0, 0.7);
     border-radius: 3px;
-    transition: all 0.5s;
-    align-items: center;
-    transform: translateY(-200%);
+    transition: all 0.7s;
+    transform: translateX(-200%);
+    top: 0;
+    left: 0;
+    z-index: 1;
+    gap: 0;
   }
   .nav-links li {
-    width: 80%;
-    padding: 5px 0;
-    font-size: 1rem;
+    width: 100%;
     border-bottom: 1px solid var(--white);
-    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+  }
+  .nav-links li:first-child {
+    padding-top: 20px;
   }
   .fa-bars {
     display: flex !important;
