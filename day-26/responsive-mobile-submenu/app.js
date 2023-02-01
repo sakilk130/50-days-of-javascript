@@ -22,6 +22,13 @@ mobileMenu.addEventListener('click', () => {
   document.querySelector('.nav-wrapper').classList.toggle('show');
   document.querySelector('.nav-links').classList.toggle('show');
   mobileMenu.classList.toggle('fa-times');
+  const subMenuThree = Array.from(
+    document.querySelector('.submenu-three').classList
+  ).find((item) => item === 'show');
+  if (subMenuThree) {
+    console.log(subMenuThree);
+    document.querySelector('.submenu-three').classList.remove('show');
+  }
 });
 
 subMenu.addEventListener('click', () => {

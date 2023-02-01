@@ -103,3 +103,5 @@ This is a responsive mobile menu that is built with HTML, CSS and JavaScript. It
 This is a responsive mobile menu with a hamburger icon. The menu is hidden by default and will be shown when the hamburger icon is clicked. The menu will be hidden again when the hamburger icon is clicked again.
 
 ## Day 26 - Responsive Mobile Submenu
+
+This is a responsive mobile submenu. The menu is hidden by default and will be shown when the hamburger icon is clicked. The menu will be hidden again when the hamburger icon is clicked again.
