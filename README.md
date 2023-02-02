@@ -117,3 +117,7 @@ This is a simple newsletter form that appears on scroll. It is built with HTML, 
 ## Day 29 - Page Animation with AOS
 
 This is a simple page animation with AOS.
+
+## Day 30 - Password Generator
+
+This is a simple password generator. The password contains uppercase and lowercase letters, numbers and special characters. It is built with HTML, CSS and JavaScript.
