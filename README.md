@@ -113,3 +113,7 @@ This is a simple scroll indicator that shows the percentage of the page that has
 ## Day 28 - Newsletter Form on Scroll
 
 This is a simple newsletter form that appears on scroll. It is built with HTML, CSS and JavaScript.
+
+## Day 29 - Page Animation with AOS
+
+This is a simple page animation with AOS.
