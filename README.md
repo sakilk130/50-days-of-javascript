@@ -109,3 +109,7 @@ This is a responsive mobile submenu. The menu is hidden by default and will be s
 ## Day 27 - Scroll Indicator
 
 This is a simple scroll indicator that shows the percentage of the page that has been scrolled.
+
+## Day 28 - Newsletter Form on Scroll
+
+This is a simple newsletter form that appears on scroll. It is built with HTML, CSS and JavaScript.

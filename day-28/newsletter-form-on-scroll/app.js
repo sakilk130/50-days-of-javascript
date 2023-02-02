@@ -1,0 +1,62 @@
+const links = document.querySelectorAll('a');
+const mobileMenu = document.querySelector('.fa-bars');
+const subMenu = document.querySelector('.three-sub');
+const back = document.querySelector('.back');
+const pageScrollProgress = document.querySelector('.scroll-indicator');
+const closeNewsletter = document.querySelector('.fa-window-close');
+const newsletter = document.querySelector('.newsletter');
+
+const clickHandler = (e) => {
+  e.preventDefault();
+
+  const href = e.currentTarget.getAttribute('href');
+  const offsetTop = document.querySelector(href).offsetTop;
+  scroll({
+    top: offsetTop,
+    behavior: 'smooth',
+  });
+};
+
+for (const link of links) {
+  link.addEventListener('click', clickHandler);
+}
+
+mobileMenu.addEventListener('click', () => {
+  document.querySelector('.nav-wrapper').classList.toggle('show');
+  document.querySelector('.nav-links').classList.toggle('show');
+  mobileMenu.classList.toggle('fa-times');
+  const subMenuThree = Array.from(
+    document.querySelector('.submenu-three').classList
+  ).find((item) => item === 'show');
+  if (subMenuThree) {
+    console.log(subMenuThree);
+    document.querySelector('.submenu-three').classList.remove('show');
+  }
+});
+
+subMenu.addEventListener('click', () => {
+  document.querySelector('.nav-links').classList.remove('show');
+  document.querySelector('.submenu-three').classList.toggle('show');
+});
+
+back.addEventListener('click', () => {
+  document.querySelector('.nav-links').classList.toggle('show');
+  document.querySelector('.submenu-three').classList.remove('show');
+});
+
+document.addEventListener('scroll', () => {
+  const scrollable = document.documentElement.scrollHeight - window.innerHeight;
+  const scrolled = window.scrollY;
+  const scrollPercent = (scrolled / scrollable) * 100;
+  pageScrollProgress.style = `width: ${scrollPercent}%`;
+
+  if (scrollPercent > 80) {
+    newsletter.style = 'transform: translateX(0);';
+  } else {
+    newsletter.style = 'transform: translateX(-100%);';
+  }
+});
+
+closeNewsletter.addEventListener('click', () => {
+  newsletter.style = 'transform: translateX(-100%);';
+});
