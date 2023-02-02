@@ -4,4 +4,4 @@ This is a simple password generator. The password contains uppercase and lowerca
 
 ## Screenshot
 
-<!-- ![Screenshot](./screenshot/password.gif) -->
+![Screenshot](./screenshot/password.gif)
