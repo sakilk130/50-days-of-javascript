@@ -121,3 +121,7 @@ This is a simple page animation with AOS.
 ## Day 30 - Password Generator
 
 This is a simple password generator. The password contains uppercase and lowercase letters, numbers and special characters. It is built with HTML, CSS and JavaScript.
+
+## Day 31 - Local Storage
+
+This is a simple example of how to use local storage in a web application.
