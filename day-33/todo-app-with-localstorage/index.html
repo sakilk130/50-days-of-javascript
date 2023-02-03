@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Notes App with LocalStorage</title>
+  </head>
+  <body>
+    <div class="input-container">
+      <input type="text" placeholder="Enter your todo" />
+      <textarea
+        name="description"
+        id="description"
+        cols="30"
+        rows="5"
+        placeholder="Enter description"
+      ></textarea>
+      <button class="add-btn">Add Note</button>
+    </div>
+    <div class="notes">
+      <h4>Your Notes</h4>
+      <hr />
+      <button class="delete-btn">Delete All</button>
+      <div class="notes-container">
+        <div class="note">
+          <p>Note 1</p>
+          <h3>My first note</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam
+            quod, voluptatum, quia, voluptas quae voluptates quibusdam
+            consequuntur voluptatibus quos quas quidem. Quisquam, quae. Quisquam
+            quod, voluptatum, quia, voluptas quae voluptates quibusdam
+            consequuntur voluptatibus quos quas quidem. Quisquam, quae.
+          </p>
+          <div class="note-footer">
+            <button class="delete-btn">Delete Note</button>
+            <button class="edit-btn">Edit Note</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--dark-grey);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--grey);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.input-container input {
+  padding: 0.5rem;
+  font-size: 1.2rem;
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.input-container textarea {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  outline: none;
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+  resize: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.input-container button {
+  background-color: var(--color-primary);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--white);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.input-container button:hover {
+  background-color: var(--black);
+}
+.notes {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 600px;
+  color: var(--white);
+  font-size: 1.4rem;
+}
+hr {
+  margin: 1rem 0;
+  border: none;
+  border-bottom: 1px solid var(--grey);
+}
+.delete-btn {
+  background-color: red;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+.delete-btn:hover {
+  background-color: var(--color-sec);
+}
+.note {
+  background-color: var(--grey);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  color: var(--black);
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+.edit-btn {
+  background-color: var(--color-primary);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--white);
+  transition: all 0.3s ease;
+}
+.edit-btn:hover {
+  background-color: var(--black);
+}
+.note-footer {
+  margin-top: 1rem;
+}
