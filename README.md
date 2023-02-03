@@ -128,4 +128,4 @@ This is a simple example of how to use local storage in a web application.
 
 ## Day 32 - Todo App
 
-This is a simple todo app that uses HTML, CSS and JavaScript.
+This is a simple todo app that uses HTML, CSS and JavaScript. It uses LocalStorage to store the todo items.
