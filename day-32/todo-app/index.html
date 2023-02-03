@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Todo App</title>
+  </head>
+  <body>
+    <div class="todo-add">
+      <input type="text" placeholder="Add a todo" id="todo" />
+      <button class="add-btn" id="todo-add">Add</button>
+    </div>
+    <div class="list-of-todos">
+      <h4>List of Todo</h4>
+      <hr />
+      <ol>
+        <li class="list-item">
+          <span>Learn HTML</span>
+          <button class="delete-btn">
+            <i class="fas fa-trash"></i>
+          </button>
+        </li>
+      </ol>
+      <hr />
+      <button class="clear-btn">Clear All</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

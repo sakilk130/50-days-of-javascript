@@ -125,3 +125,7 @@ This is a simple password generator. The password contains uppercase and lowerca
 ## Day 31 - Local Storage
 
 This is a simple example of how to use local storage in a web application.
+
+## Day 32 - Todo App
+
+This is a simple todo app that uses HTML, CSS and JavaScript.
