@@ -137,3 +137,7 @@ This is a simple notes app that allows you to create, edit, and delete notes. It
 ## Day 34 - BMI Calculator
 
 This is a simple BMI calculator app. It calculates the BMI of a person and gives the result.
+
+## Day 35 - Calculator
+
+This is a simple calculator app. It performs basic arithmetic operations.
