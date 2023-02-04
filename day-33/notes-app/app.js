@@ -15,6 +15,7 @@ submitButton.addEventListener('click', (e) => {
       title,
       description,
     };
+    if (!title || !description) return alert('Please fill in all fields');
     notes.push(note);
     localStorage.setItem('notes', JSON.stringify(notes));
     titleElement.value = '';
