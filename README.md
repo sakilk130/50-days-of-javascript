@@ -133,3 +133,7 @@ This is a simple todo app that uses HTML, CSS and JavaScript. It uses LocalStora
 ## Day 33 - Notes App
 
 This is a simple notes app that allows you to create, edit, and delete notes. It uses the browser's local storage to store the notes.
+
+## Day 34 - BMI Calculator
+
+This is a simple BMI calculator app. It calculates the BMI of a person and gives the result.

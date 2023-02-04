@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>BMI Calculator</title>
+  </head>
+  <body>
+    <div class="input-container">
+      <h2>BMI Calculator</h2>
+      <hr />
+      <div class="form-input">
+        <label for="height">Height (in cm)</label>
+        <input
+          type="number"
+          placeholder="Enter height"
+          name="height"
+          id="height"
+          min="0"
+        />
+      </div>
+      <div class="form-input">
+        <label for="weight">Weight (in kg)</label>
+        <input
+          type="number"
+          placeholder="Enter weight"
+          name="weight"
+          id="weight"
+          min="0"
+        />
+      </div>
+      <button class="submit-btn" id="submit">Calculate</button>
+      <div id="result"></div>
+      <button class="reset-btn">Reset</button>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

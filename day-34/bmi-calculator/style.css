@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  background-color: var(--dark-grey);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.input-container {
+  margin-top: 2rem;
+  width: 100%;
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--blue);
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.input-container h2 {
+  color: var(--white);
+  font-size: 2rem;
+}
+.form-input {
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.form-input label {
+  margin-bottom: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--white);
+}
+.form-input input {
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  color: var(--black);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.submit-btn {
+  background-color: var(--color-primary);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--white);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.submit-btn:hover {
+  background-color: var(--black);
+}
+hr {
+  border: none;
+  border-bottom: 1px solid var(--grey);
+  margin-bottom: 0.5rem;
+}
+.reset-btn {
+  margin-top: 1rem;
+  width: 200px;
+  background-color: var(--grey);
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  color: var(--black);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+.reset-btn:hover {
+  background-color: var(--black);
+  color: var(--white);
+}
+.result-container {
+  margin-top: 1rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+.normal {
+  background-color: green;
+  color: var(--white);
+}
+.overweight {
+  background-color: red;
+  color: var(--white);
+}
+.underweight {
+  background-color: yellow;
+  color: var(--black);
+}
+.obese {
+  background-color: red;
+  color: var(--white);
+}
