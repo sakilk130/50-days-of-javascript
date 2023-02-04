@@ -141,3 +141,7 @@ This is a simple BMI calculator app. It calculates the BMI of a person and gives
 ## Day 35 - Calculator
 
 This is a simple calculator app. It performs basic arithmetic operations.
+
+## Day 36 - Digital Clock
+
+This is a simple digital clock app. It displays the current time.
