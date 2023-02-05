@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/1935d064dd.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Weight Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="header">Weight Converter</h1>
+      <hr />
+      <p class="message">Type a value in any of the fields to convert weight</p>
+      <form action="">
+        <div class="form-input">
+          <label for="pounds"> Weight in Pounds </label>
+          <input type="number" min="0" id="pounds" value="0" />
+        </div>
+        <div class="form-input">
+          <label for="kilograms"> Weight in Kilograms </label>
+          <input type="number" min="0" id="kilograms" value="0" />
+        </div>
+        <div class="form-input">
+          <label for="grams"> Weight in Grams </label>
+          <input type="number" min="0" id="grams" value="0" />
+        </div>
+        <div class="form-input">
+          <label for="ounces"> Weight in Ounces </label>
+          <input type="number" min="0" id="ounces" placeholder="Ounces" />
+        </div>
+      </form>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
