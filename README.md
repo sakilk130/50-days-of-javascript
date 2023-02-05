@@ -145,3 +145,7 @@ This is a simple calculator app. It performs basic arithmetic operations.
 ## Day 36 - Digital Clock
 
 This is a simple digital clock app. It displays the current time.
+
+## Day 37 - Weight Converter
+
+This is a simple weight converter that converts from pounds to kilograms and vice versa.
