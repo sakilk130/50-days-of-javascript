@@ -149,3 +149,7 @@ This is a simple digital clock app. It displays the current time.
 ## Day 37 - Weight Converter
 
 This is a simple weight converter that converts from pounds to kilograms and vice versa.
+
+## Day 38 - Temperature Converter
+
+This is a simple temperature converter that converts from Celsius to Fahrenheit , Kelvin and vice versa.
