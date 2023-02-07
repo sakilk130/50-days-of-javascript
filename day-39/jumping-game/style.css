@@ -79,3 +79,45 @@ body {
   right: 0;
   z-index: 2;
 }
+.score {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  color: var(--white);
+}
+
+.animate {
+  animation: jump 0.3s linear;
+}
+
+@keyframes jump {
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 100px;
+    transform: rotate(45deg);
+  }
+  50% {
+    top: 60px;
+    transform: rotate(90deg);
+  }
+  75% {
+    top: 100px;
+    transform: rotate(180deg);
+  }
+  100% {
+    top: 150px;
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes move {
+  0% {
+    left: 480px;
+  }
+  100% {
+    left: -20px;
+  }
+}

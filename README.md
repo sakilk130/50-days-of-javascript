@@ -153,3 +153,7 @@ This is a simple weight converter that converts from pounds to kilograms and vic
 ## Day 38 - Temperature Converter
 
 This is a simple temperature converter that converts from Celsius to Fahrenheit , Kelvin and vice versa.
+
+## Day 39 - Jumping Game
+
+This is a simple jumping game. The player has to jump over the obstacles to score points.
