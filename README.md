@@ -157,3 +157,7 @@ This is a simple temperature converter that converts from Celsius to Fahrenheit 
 ## Day 39 - Jumping Game
 
 This is a simple jumping game. The player has to jump over the obstacles to score points.
+
+## Day 40 - Word Count Tool
+
+This is a simple word count tool. It counts the number of words in a text.
