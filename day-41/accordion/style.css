@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+:root {
+  --white: #fff;
+  --black: #1c2b2d;
+  --blue: #31326f;
+  --light-blue: #005490;
+  --color-primary: #9d0191;
+  --color-sec: #db6400;
+  --grey: #eee;
+  --dark-grey: #222831;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+}
+.container {
+  width: 100%;
+  max-width: 800px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container h1 {
+  color: var(--black);
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.main-body {
+  width: 100%;
+}
+.accordion h2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: var(--grey);
+  color: var(--black);
+  border-bottom: 1px solid var(--dark-grey);
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.accordion p {
+  display: none;
+  padding: 0.5rem;
+  background-color: var(--white);
+  color: var(--dark-grey);
+  transition: all 0.3s ease;
+}
+.active {
+  display: block !important;
+}

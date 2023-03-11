@@ -161,3 +161,7 @@ This is a simple jumping game. The player has to jump over the obstacles to scor
 ## Day 40 - Word Count Tool
 
 This is a simple word count tool. It counts the number of words in a text.
+
+## Day 41 - Accordion
+
+This is a simple accordion. It is built with HTML, CSS and JavaScript.
