@@ -169,3 +169,11 @@ This is a simple accordion. It is built with HTML, CSS and JavaScript.
 ## Day 42 - Random Joke Generator using Async/Await
 
 This is a simple random joke generator that uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to get a random joke. It uses the async/await syntax.
+
+## Day 43 - Modules import/export
+
+This is a simple example of how to use modules in JavaScript. It uses the import and export syntax.
+
+## Day 44 - GitHub Profile Search
+
+This is a simple GitHub profile search app. It uses the GitHub API to get the user's profile information and display it on the page.
