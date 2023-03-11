@@ -165,3 +165,7 @@ This is a simple word count tool. It counts the number of words in a text.
 ## Day 41 - Accordion
 
 This is a simple accordion. It is built with HTML, CSS and JavaScript.
+
+## Day 42 - Random Joke Generator using Async/Await
+
+This is a simple random joke generator that uses the [icanhazdadjoke API](https://icanhazdadjoke.com/api) to get a random joke. It uses the async/await syntax.
