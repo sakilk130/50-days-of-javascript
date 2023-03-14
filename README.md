@@ -177,3 +177,7 @@ This is a simple example of how to use modules in JavaScript. It uses the import
 ## Day 44 - GitHub Profile Search
 
 This is a simple GitHub profile search app. It uses the GitHub API to get the user's profile information and display it on the page.
+
+## Day 45 - Wikipedia Search
+
+This is a simple Wikipedia search app. It uses the Wikipedia API to get the search results and display it on the page.
