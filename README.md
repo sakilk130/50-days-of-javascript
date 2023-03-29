@@ -181,3 +181,7 @@ This is a simple GitHub profile search app. It uses the GitHub API to get the us
 ## Day 45 - Wikipedia Search
 
 This is a simple Wikipedia search app. It uses the Wikipedia API to get the search results and display it on the page.
+
+## Day 46 - Lyrics Search
+
+This is a simple lyrics search app. It uses the [lyrics.ovh](https://lyrics.ovh) API to fetch the lyrics of the song.
