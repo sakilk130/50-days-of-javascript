@@ -185,3 +185,7 @@ This is a simple Wikipedia search app. It uses the Wikipedia API to get the sear
 ## Day 46 - Lyrics Search
 
 This is a simple lyrics search app. It uses the [lyrics.ovh](https://lyrics.ovh) API to fetch the lyrics of the song.
+
+## Day 47 - Image Slider
+
+This is a simple image slider that uses the `transition` property to animate the images.
