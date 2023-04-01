@@ -193,3 +193,7 @@ This is a simple image slider that uses the `transition` property to animate the
 ## Day 48 - JS Array Methods
 
 This is a collection of exercises to practice using array methods.
+
+## Day 49 - Data Attribute
+
+The data attribute is used to store custom data private to the page or application. The attributes can then be used in the JavaScript to create a more engaging user experience (without any Ajax calls or server-side database queries).
