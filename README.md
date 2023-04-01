@@ -189,3 +189,7 @@ This is a simple lyrics search app. It uses the [lyrics.ovh](https://lyrics.ovh)
 ## Day 47 - Image Slider
 
 This is a simple image slider that uses the `transition` property to animate the images.
+
+## Day 48 - JS Array Methods
+
+This is a collection of exercises to practice using array methods.
