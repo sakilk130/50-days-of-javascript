@@ -197,3 +197,7 @@ This is a collection of exercises to practice using array methods.
 ## Day 49 - Data Attribute
 
 The data attribute is used to store custom data private to the page or application. The attributes can then be used in the JavaScript to create a more engaging user experience (without any Ajax calls or server-side database queries).
+
+## Day 50 - Product Filter
+
+This is a simple product filter that allows you to filter products by category.
