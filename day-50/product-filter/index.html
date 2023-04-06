@@ -21,200 +21,201 @@
     <header>
       <div class="container">
         <h2 class="title">Product Filter</h2>
-        <input type="text" class="search" placeholder="Search" />
+        <input type="text" class="search" placeholder="Search" id="search" />
         <div class="filter">
-          <a href="#" data-filter="" class="flter-btn">All</a>
-          <a href="#" data-filter="" class="flter-btn">Watch</a>
-          <a href="#" data-filter="" class="flter-btn"> Jewelry </a>
-          <a href="#" data-filter="" class="flter-btn"> Gown </a>
-          <a href="#" data-filter="" class="flter-btn">Shirt</a>
+          <a href="#" data-filter="all" class="flter-btn active">All</a>
+          <a href="#" data-filter="watch" class="flter-btn">Watch</a>
+          <a href="#" data-filter="jewelry" class="flter-btn"> Jewelry </a>
+          <a href="#" data-filter="gown" class="flter-btn"> Gown </a>
+          <a href="#" data-filter="shirt" class="flter-btn">Shirt</a>
         </div>
       </div>
     </header>
     <main class="container">
-      <div class="products">
-        <div class="row">
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/1.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Watch Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$30.30</del>
-                  <span class="text-success fw-bold">$20.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
+      <div class="row products">
+        <div class="col-md-6 col-lg-3 mt-5 product watch">
+          <div class="card" style="width: 18rem">
+            <img src="./images/1.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Watch Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$30.30</del>
+                <span class="text-success fw-bold">$20.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
             </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/2.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Watch Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$34.30</del>
-                  <span class="text-success fw-bold">$24.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/13.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Watch Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$20.30</del>
-                  <span class="text-success fw-bold">$29.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/3.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Shirt Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$40.30</del>
-                  <span class="text-success fw-bold">$30.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/4.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Shirt Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$10.30</del>
-                  <span class="text-success fw-bold">$3.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/5.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Shirt Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$10.30</del>
-                  <span class="text-success fw-bold">$3.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/6.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Gown Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$10.30</del>
-                  <span class="text-success fw-bold">$3.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/7.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Shirt Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$10.30</del>
-                  <span class="text-success fw-bold">$3.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/8.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Shirt Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$10.30</del>
-                  <span class="text-success fw-bold">$3.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/9.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Jewelry Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$10.30</del>
-                  <span class="text-success fw-bold">$3.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/10.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Jewelry Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$10.30</del>
-                  <span class="text-success fw-bold">$3.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
-          <dir class="col-md-6 col-lg-3 mt-5">
-            <div class="card" style="width: 18rem">
-              <img src="./images/11.png" class="card-img-top" alt="..." />
-              <div class="card-body">
-                <h5 class="card-title">Jewelry Product</h5>
-                <p class="card-text">
-                  <del class="text-danger">$10.30</del>
-                  <span class="text-success fw-bold">$3.20</span>
-                </p>
-                <a href="#" class="add-to-cart">
-                  <i class="fas fa-shopping-cart"></i>
-                </a>
-              </div>
-            </div>
-          </dir>
+          </div>
         </div>
+        <div class="col-md-6 col-lg-3 mt-5 product watch">
+          <div class="card" style="width: 18rem">
+            <img src="./images/2.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Watch Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$34.30</del>
+                <span class="text-success fw-bold">$24.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product watch">
+          <div class="card" style="width: 18rem">
+            <img src="./images/13.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Watch Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$20.30</del>
+                <span class="text-success fw-bold">$29.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product shirt">
+          <div class="card" style="width: 18rem">
+            <img src="./images/3.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Shirt Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$40.30</del>
+                <span class="text-success fw-bold">$30.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product shirt">
+          <div class="card" style="width: 18rem">
+            <img src="./images/4.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Shirt Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$10.30</del>
+                <span class="text-success fw-bold">$3.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product shirt">
+          <div class="card" style="width: 18rem">
+            <img src="./images/5.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Shirt Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$10.30</del>
+                <span class="text-success fw-bold">$3.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product gown">
+          <div class="card" style="width: 18rem">
+            <img src="./images/6.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Gown Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$10.30</del>
+                <span class="text-success fw-bold">$3.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product shirt">
+          <div class="card" style="width: 18rem">
+            <img src="./images/7.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Shirt Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$10.30</del>
+                <span class="text-success fw-bold">$3.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product shirt">
+          <div class="card" style="width: 18rem">
+            <img src="./images/8.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Shirt Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$10.30</del>
+                <span class="text-success fw-bold">$3.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product jewelry">
+          <div class="card" style="width: 18rem">
+            <img src="./images/9.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jewelry Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$10.30</del>
+                <span class="text-success fw-bold">$3.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product jewelry">
+          <div class="card" style="width: 18rem">
+            <img src="./images/10.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jewelry Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$10.30</del>
+                <span class="text-success fw-bold">$3.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3 mt-5 product jewelry">
+          <div class="card" style="width: 18rem">
+            <img src="./images/11.png" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Jewelry Product</h5>
+              <p class="card-text">
+                <del class="text-danger">$10.30</del>
+                <span class="text-success fw-bold">$3.20</span>
+              </p>
+              <a href="#" class="add-to-cart">
+                <i class="fas fa-shopping-cart"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="no-product">
+        <h2>No Product Found</h2>
       </div>
     </main>
 
